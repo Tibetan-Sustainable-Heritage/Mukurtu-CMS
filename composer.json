@@ -60,6 +60,7 @@
         "drupal/og": "^1.x-dev",
         "drupal/paragraphs": "*",
         "drupal/pathauto": "~1.14.0",
+	"drupal/potx": "^1.1",
         "drupal/redirect": "*",
         "drupal/restui": "*",
         "drupal/search_api": "*",
