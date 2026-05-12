@@ -56,6 +56,7 @@ install:
   - rebuild_cache_access
   - notify_user_default
   - readonly_field_widget
+  - potx
 
 dependencies:
   - 'blazy:blazy'
@@ -131,6 +132,7 @@ dependencies:
   - 'mukurtu_local_contexts:mukurtu_local_contexts'
   - 'mukurtu_media:mukurtu_media'
   - 'mukurtu_migrate:mukurtu_migrate'
+  - 'mukurtu_multilingual:mukurtu_multilingual'
   - 'mukurtu_multipage_items:mukurtu_multipage_items'
   - 'mukurtu_notifications:mukurtu_notifications'
   - 'mukurtu_person:mukurtu_person'
