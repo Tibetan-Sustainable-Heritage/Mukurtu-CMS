@@ -56,7 +56,6 @@ install:
   - rebuild_cache_access
   - notify_user_default
   - readonly_field_widget
-  - potx
 
 dependencies:
   - 'blazy:blazy'
