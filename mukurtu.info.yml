@@ -132,7 +132,6 @@ dependencies:
   - 'mukurtu_local_contexts:mukurtu_local_contexts'
   - 'mukurtu_media:mukurtu_media'
   - 'mukurtu_migrate:mukurtu_migrate'
-  - 'mukurtu_multilingual:mukurtu_multilingual'
   - 'mukurtu_multipage_items:mukurtu_multipage_items'
   - 'mukurtu_notifications:mukurtu_notifications'
   - 'mukurtu_person:mukurtu_person'
