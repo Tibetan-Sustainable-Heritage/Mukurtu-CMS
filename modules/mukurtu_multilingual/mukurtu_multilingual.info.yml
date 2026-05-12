@@ -8,3 +8,5 @@ dependencies:
   - drupal:content_translation
   - drupal:locale
   - drupal:config_translation_po
+  - mukurtu_person:mukurtu_person
+  - mukurtu_place:mukurtu_place
