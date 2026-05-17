@@ -45,7 +45,7 @@ class DefaultLandingPage {
       'type' => 'image_with_description',
       'info' => $this->t('Welcome to Your Mukurtu CMS Site'),
       'body' => [
-        'value' => '<p>To start using your Mukurtu site, create a community, cultural protocol, and category.</p>',
+        'value' => t('<p>To start using your Mukurtu site, create a community, cultural protocol, and category.</p>'),
         'format' => 'basic_html',
       ],
       'region' => 'content',
@@ -63,7 +63,7 @@ class DefaultLandingPage {
       'type' => 'vertical_image_with_description',
       'info' => $this->t('Welcome to Your Mukurtu CMS Site (Vertical)'),
       'body' => [
-        'value' => '<p>To start using your Mukurtu site, create a community, cultural protocol, and category.</p>',
+        'value' => t('<p>To start using your Mukurtu site, create a community, cultural protocol, and category.</p>'),
         'format' => 'basic_html',
       ],
       'region' => 'content',
@@ -97,7 +97,7 @@ class DefaultLandingPage {
       'type' => 'full_image_with_description',
       'info' => $this->t('Welcome to Your Mukurtu CMS Site (Full Background)'),
       'body' => [
-        'value' => '<p>To start using your Mukurtu site, create a community, cultural protocol, and category.</p>',
+        'value' => t('<p>To start using your Mukurtu site, create a community, cultural protocol, and category.</p>'),
         'format' => 'basic_html',
       ],
       'region' => 'content',
@@ -134,7 +134,7 @@ class DefaultLandingPage {
       'content', // Region name (layout_onecol has 'content' region)
       [
         'id' => 'block_content:' . $hero_block_uuid, // Reference to the block content
-        'label' => 'Welcome to Your Mukurtu CMS Site',
+        'label' => t('Welcome to Your Mukurtu CMS Site'),
         'label_display' => 1, // Display the title
         'provider' => 'block_content',
       ]
