@@ -435,7 +435,7 @@ function mukurtu_browse_update_40010() {
     $field->setType('boolean');
     $field->setPropertyPath('is_additional_mpi_page');
     $field->setDatasourceId('entity:node');
-    $field->setLabel('Is additional multipage item page');
+    $field->setLabel(t('Is additional multipage item page'));
     $index->addField($field);
   }
 

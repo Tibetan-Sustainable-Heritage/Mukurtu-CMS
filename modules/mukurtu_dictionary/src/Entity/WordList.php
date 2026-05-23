@@ -34,7 +34,7 @@ class WordList extends Node implements WordListInterface, CulturalProtocolContro
       ->setDisplayConfigurable('form', TRUE);
 
     $definitions['field_summary'] = BaseFieldDefinition::create('string')
-      ->setLabel('Summary')
+      ->setLabel(t('Summary'))
       ->setDescription(t('A short summary of the word list. The summary should supplement the title. The summary is displayed as part of the word list preview when browsing the site. Maximum 255 characters.'))
       ->setSettings([
         'max_length' => 255,
@@ -48,7 +48,7 @@ class WordList extends Node implements WordListInterface, CulturalProtocolContro
       ->setDisplayConfigurable('form', TRUE);
 
     $definitions['field_source'] = BaseFieldDefinition::create('string')
-      ->setLabel('Source')
+      ->setLabel(t('Source'))
       ->setDescription(t('Source provides a reference to the organization or individual responsible for the holding, description, origination, or contribution of the word list. Examples include institutions (e.g.,: "Library of Congress, American Folklife Center"), or donors (e.g.,: "Donated by John Smith"). Maximum 255 characters.'))
       ->setSettings([
         'max_length' => 255,
@@ -165,7 +165,7 @@ class WordList extends Node implements WordListInterface, CulturalProtocolContro
       ->setDisplayConfigurable('form', TRUE);
 
     $definitions['field_coverage_description'] = BaseFieldDefinition::create('text_long')
-      ->setLabel('Location Description')
+      ->setLabel(t('Location Description'))
       ->setDescription(t('A descriptive field to provide additional context and depth to the location(s) connected to the word list.	</br>This HTML field can support rich text and embedded media assets using the editing toolbar.'))
       ->setCardinality(1)
       ->setRequired(FALSE)
