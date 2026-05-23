@@ -703,7 +703,7 @@ function mukurtu_dictionary_update_40017(): void {
     $field->setType('string');
     $field->setPropertyPath('field_coverage');
     $field->setDatasourceId('entity:node');
-    $field->setLabel('Map Points');
+    $field->setLabel(t('Map Points'));
     $index->addField($field);
     $index->save();
     $index->reindex();

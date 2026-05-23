@@ -25,7 +25,7 @@ class ExternalEmbed extends Media implements ExternalEmbedInterface, CulturalPro
     $definitions = self::getProtocolFieldDefinitions();
 
     $definitions['field_media_external_embed'] = BaseFieldDefinition::create('text_long')
-      ->setLabel('External Embed')
+      ->setLabel(t('External Embed'))
       ->setDescription(t('Embed code from an external website. Note that while the media asset will be managed by cultural protocols, the originating website may not have similar privacy settings. External embeds are usually some kind of code wrapped in &lt;iframe&gt;&lt;/iframe&gt; tags.'))
       ->setCardinality(1)
       ->setRequired(TRUE)
