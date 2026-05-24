@@ -27,10 +27,11 @@
  */
 #}
 
+{% set block_entity = content['#block_content'] %}
 <div{{ attributes.addClass('block-wrapper')}}>
   {{ title_prefix }}
   {% if label %}
-    <h2{{ title_attributes }}>{{ label }}</h2>
+    <h2{{ title_attributes }}>{{ block_entity.info.value }}</h2>
     {# <a class="testing-links" href="https://example.com">Website for testing</a> #}
   {% endif %}
   {{ title_suffix }}
